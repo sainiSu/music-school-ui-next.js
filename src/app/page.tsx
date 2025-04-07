@@ -6,7 +6,7 @@ import Instructor from "./components/Instructor";
 import TestimonialCard from "./components/TestimonialCard";
 import { TypewriterEffect } from "./components/ui/typewriter-effect";
 import UpcomingWebinars from "./components/UpcomingWebinars";
-import  WhyUs  from "./components/whyus";
+import  WhyUs  from "./components/WhyUs";
 import Footer from "./components/Footer";
 
 
