@@ -1,11 +1,8 @@
+// next.config.js or next.config.ts
 const nextConfig = {
-    reactStrictMode: true,
-    typescript: {
-      ignoreBuildErrors: true,
-    },
-    eslint: {
-      ignoreDuringBuilds: true,
-    },
-  };
-  
-  module.exports = nextConfig;
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+};
+
+module.exports = nextConfig;
