@@ -37,7 +37,7 @@ A visually engaging and modern music school landing page built with **Next.js 14
 
 ## 📁 Folder Structure
 
-
+```bash
 src/
 ├── app/
 │   ├── components/         # Reusable UI components
@@ -50,7 +50,9 @@ src/
 │   └── music_courses.json  # Course data
 ├── lib/
 │   └── utils.ts            # Utility functions
-└── utils/
-    └── cn.ts               # Class name merge utility
+├── utils/
+│   └── cn.ts               # Class name merge utility
+
+
 
 
