@@ -52,6 +52,18 @@ src/
 │   └── utils.ts            # Utility functions
 ├── utils/
 │   └── cn.ts               # Class name merge utility
+├── .gitignore
+├── components.json
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.js
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+├── tsconfig.json
+├── vercel.json
 
 
 
