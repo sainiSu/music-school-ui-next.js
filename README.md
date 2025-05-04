@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎵 Music School UI
 
-## Getting Started
+A visually engaging and modern music school landing page built with **Next.js 14 App Router**, **TypeScript**, and **Tailwind CSS**. It includes custom UI components, a contact form, animated effects, and responsive layouts designed for an excellent user experience.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+👉 [Visit Live Site on Vercel](https://music-school-website-five.vercel.app/)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- 🎹 Hero Section with beautiful background and animations
+- 🧑‍🏫 Instructor section with hover effects
+- 📆 Upcoming Webinars display
+- ⭐ Why Choose Us? section with sticky scroll effect
+- 🎓 Featured Courses with card hover effect
+- 🗣️ Testimonials with animated tooltip
+- 📬 Contact Us form with confirmation modal and redirect
+- 🧭 Reusable Navbar and Footer
+- 🌗 Dark mode-friendly design
+- 🎨 Utility-first Tailwind CSS for styling
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js 14 (App Router)](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) 
+- [UI library](https://ui.aceternity.com/)
+- Custom UI animations and effects
+- [Vercel](https://vercel.com/) for deployment
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+src/
+├── app/
+│   ├── components/         # Reusable UI components
+│   ├── contact/            # Contact page
+│   ├── courses/            # Placeholder for course pages
+│   ├── layout.tsx          # Global layout
+│   ├── page.tsx            # Home page
+│   └── globals.css         # Global Tailwind styles
+├── data/
+│   └── music_courses.json  # Course data
+├── lib/
+│   └── utils.ts            # Utility functions
+└── utils/
+    └── cn.ts               # Class name merge utility
+
+
