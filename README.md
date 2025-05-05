@@ -31,8 +31,6 @@ A visually engaging and modern music school landing page built with **Next.js 14
 - [Tailwind CSS](https://tailwindcss.com/) 
 - [UI library](https://ui.aceternity.com/)
 - Custom UI animations and effects
-- [Vercel](https://vercel.com/) for deployment
-
 ---
 
 ## 📁 Folder Structure
@@ -65,6 +63,9 @@ src/
 ├── tsconfig.json
 ├── vercel.json
 
+
+## Live Demo:
+https://music-school-ui-next-js-ahyu.vercel.app/
 
 
 
